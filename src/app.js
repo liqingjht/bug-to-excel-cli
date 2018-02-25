@@ -14,7 +14,7 @@ global.console.error = function(error) {
 }
 
 program.on('--help', function() {
-    console.log('  \nExamples:\n');
+    console.log('  \n  Examples:\n');
     console.log('    node app.js -u "http://..." -s Name');
 })
 
